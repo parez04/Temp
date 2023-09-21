@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; cjarset-utf-8"/>
+<title>Counter testing</title>
+<link rel="stylesheet" href="Font.css">
+<script>
+
+a=0;
+
+function count()
+{ 
+a++;
+document.getElementById("numbers").innerHTML=a;
+}
+function closeWindow()
+{
+   numbers.innerHTML=0;
+     a=0;
+
+}
+   
+</script>
+</head>
+<body>
+
+<button onclick="count()">Click here</button>
+<button onclick="closeWindow()">Click to zero</button>
+<h1 id="numbers">0</h1>
+</body>
+
+</html>
